@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* gimmicks */
+table.config, table.config th, table.config td {
+	border-collapse: collapse;
+	border: 1px solid #cccccc;
+	line-height: 1.5;
+	padding: 2px;
+}
+
+table.config td:nth-child(even) {
+	background: #eeeeee;
+}
+
+span.col_blue {
+	color: #0000ff;
+}
+
+span.col_red {
+	color: #ff0000;
+}
+
+/* info */
+h4{
+	padding: 0.25em 0.5em;/*上下 左右の余白*/
+	color: #494949;/*文字色*/
+	background: transparent;/*背景透明に*/
+	border-left: solid 5px #7db4e6;/*左線*/
+}

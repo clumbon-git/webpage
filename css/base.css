@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+/* base */
+* {margin:0; padding:0;}
+body {
+	background-color:#eeeeee;
+	font-size:90%;
+	font-family: "ＭＳ ゴシック",sans-serif;
+	line-height:1.5;
+	color:#333333;
+}
+div#pagebody {
+	width:960px; margin:0 auto;
+	background-color:#ffffff;
+	background-image:url("./../pic/back_paper.png");
+	background-repeat:repeat-y;
+}
+
+span.col_blue {
+	color: #0000ff;
+}
+span.col_red {
+	color: #ff0000;
+}
+span.col_green {
+	color: #00ff00;
+}
+span.col_gray {
+	color: #cccccc;
+}
+span.col_white {
+	color: #ffffff;
+}
+span.col_black {
+	color: #000000;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+/* head */
+div#header {
+	height:70px;
+}
+div#header h1 {
+	padding:5px 0px 10px 20px;
+	font-size:47px;
+	color: #333333;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* hall_link */
+ul#menu {
+	width:920px; height:50px;
+	margin:0px 20px;
+}
+#menu li {
+	list-style-type:none;
+	display:inline;
+	float:left;
+}
+#menu li a {
+	background-color:#000080;
+	color:#ffffff;
+	display: block;
+	width: 230px; height:35px;
+	padding: 15px 0px 0px 0px;
+	text-align: right;
+	display: table-cell;
+	vertical-align: bottom;
+	text-decoration: none;
+	background-repeat: no-repeat;
+}
+
+#menu li a:hover {
+	filter: brightness(80%);
+}
+
+/* main_pic */
+#img_index {
+	overflow: hidden;
+	width:920px; height:300px;
+	margin:5px 20px;
+}
+
+/* info left */
+h2 {
+	width:150px; height:30px;
+	padding:5px 25px 5px 10px;
+	font-size:20px;
+}
+div#submenu {
+	width:150px;
+	margin:10px 10px 10px 25px;
+	float:left;
+}
+div#submenu ul li {
+	list-style-type:none;
+	style:table;
+}
+div#submenu ul li a {
+	display:block;
+	height:40px;
+	padding:5px 0px 0px 10px;
+	line-height:17px;
+	text-decoration:none;
+	border-bottom:1px dotted gray;
+	color:#333333;
+}
+div#submenu ul li:first-child a {
+	border-top:1px dotted gray;
+}
+div#submenu ul li a:hover	{
+	text-decoration:underline;
+}
+
+div#submenu a.login {
+	padding:0px 0px 0px 10px;
+	line-height:30px;
+	text-decoration:none;
+	color:#333333;
+}
+
+div#submenu a.login:hover	{
+	text-decoration:underline;
+}
+
+/* main */
+div#info {
+	width:715px;
+	float:left;
+	padding:10px 20px 0px 0px;
+}
+
+h3 {
+	font-size: 18px;
+	padding: 5px 5px;/*文字の上下 左右の余白*/
+	color: #303030;/*文字色*/
+	background: #f4f4ff;/*背景色*/
+	border-left: solid 5px #6da4f6;/*左線*/
+	border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+p {
+	width 715px;
+	margin:10px;
+}
+.infoimg_subpage {
+	width:300px;
+	margin:0px 20px 20px 0px;
+	float:left;
+}
+hr {
+	clear:both;
+	width:715px;
+	margin:10px 0px;
+	border:1px dotted #cccccc;
+}
+div .clear {
+	clear:both;
+}
+
+/* content_pic */
+div.content_pic img {
+	width: 100%;
+	height: auto;
+}
+
+/* map */
+div.remarks {
+	margin:0px 10px 10px 10px;
+}
+h4 {
+		color:#000066;
+}
+
+div.mail_attention {
+	font-size: 80%;
+}
+
+/* foot */
+div#footer {
+	clear:both;
+	height:40px;
+	padding:10px 0px 0px 0px;
+	font-size:x-small;
+	text-align:center;
+}
+
+/* text */
+span.t50per {
+	font-size: 50%;
+}
+span.t60per {
+	font-size: 60%;
+}
+span.t70per {
+	font-size: 70%;
+}
+span.t80per {
+	font-size: 80%;
+}
+span.t85per {
+	font-size: 85%;
+}
+span.t95per {
+	font-size: 90%;
+}
+
+/* other */
+.dnone {
+	display: none;
+}
+
+/* calendar */
+table.calendar {
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.calendar th {
+	border: 1px solid #ddd;
+	padding: 1px;
+	text-align: center;
+	background-color: #eee;
+}
+
+table.calendar td {
+	border: 1px solid #ddd;
+	padding: 1px;
+	text-align: left;
+}
+
+table.calendar tr.today {
+	background-color: #f8f8ff;
+}
+
+/* calendar short */
+table.calendar_short {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table.calendar_short th {
+	border: 1px solid #ddd;
+	padding: 1px;
+	background-color: #eee;
+	font-size: 60%;
+	text-align: left;
+}
+
+table.calendar_short td {
+	border: 1px solid #ddd;
+	padding: 1px;
+	font-size: 60%;
+	text-align: left;
+}
+
+span.calendar_short {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+
+div.calendar_short {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+
+/* children */
+table.children {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table.children th {
+	border: 1px solid #ddd;
+	padding: 1px;
+	text-align: center;
+	background-color: #eee;
+}
+
+table.children td {
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* children_mypage */
+table.children_mypage {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table.children_mypage td {
+	border: 1px solid #ddd;
+	padding: 1px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 80%;
+}
+
+/* thumbnail */
+.thumbnail {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.thumbnail img {
+	width: auto;
+	height: 100px;
+}
+
+/* barcode */
+div.barcode0 {
+	width: 1px;
+	height: 60px;
+	float: left;
+	background: #ffffff;
+}
+
+div.barcode1 {
+	width: 1px;
+	height: 60px;
+	float: left;
+	background: #000000;
+}
+
+table.children td.barcode {
+	border: 1px solid #ddd;
+	width: 300px;
+	height: 120px;
+	text-align: center;
+}
+
+div.barcode_disp {
+	list-style-type:none;
+	display:inline;
+	width: 100px;
+	height: 60px;
+}
+
+div.barcode_pic {
+	background: #ffffff;
+	list-style-type:none;
+	display:inline;
+	float:left;
+	width: 100px;
+	height: 85px;
+}
+
+div.barcode_base {
+	text-align: right;
+	vertical-align: middle;
+}

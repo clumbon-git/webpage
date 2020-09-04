@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* left_menu */
+table.config, table.config th, table.config td {
+	border-collapse: collapse;
+	border: 1px solid #cccccc;
+	line-height: 1.5;
+	padding: 2px;
+}
+
+table.config td:nth-child(even) {
+	background: #eeeeee;
+}
+
+/* info */
+table.info, table.info th, table.info td {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #cccccc;
+	line-height: 1.5;
+	padding: 2px;
+}
+
+table.info tr:nth-child(odd) {
+	background: #eeeeee;
+}
+
+/* config */
+table.config {
+	width: 100%;
+}
+
+table.config th {
+	background: #666666;
+	color: #ffffff;
+}
+
+/* member info */
+.infobox{
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	color: #5d627b;
+	background: white;
+	border-top: solid 5px #5d627b;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.infobox p {
+	margin: 0;
+	padding: 0;
+}
+
+.infobox2 {
+	position: relative;
+	margin: 2em 0;
+	padding: 25px 10px 7px;
+	border: solid 2px #52b1ff;
+}
+.infobox2 .box-title {
+	position: absolute;
+	display: inline-block;
+	top: -2px;
+	right: -2px;
+	padding: 0 9px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 17px;
+	background: #52b1ff;
+	color: #ffffff;
+	font-weight: bold;
+}
+.infobox2 p {
+	margin: 0;
+	padding: 0;
+}

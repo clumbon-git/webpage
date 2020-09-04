@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/* base */
+body {
+	width: 100%;
+	background-color: #ffffff;
+	background-image: none;
+	font-size: 95%;
+}
+
+div#pagebody {
+	width: 100%; margin:0 auto;
+	background-image: none;
+	background-repeat: none;
+}
+
+/* head */
+div#header {
+	height: 32px;
+}
+div#header h1 {
+	padding:0px;
+	font-size:26px;
+	color: #333333;
+}
+div#header img {
+	width: auto; height: 27px;
+}
+
+/* hall_link */
+ul#menu {
+	width: 100%;
+	margin: 0px;
+}
+#menu li a {
+	background-color:#ffffff;
+	color:#ffffff;
+	width:33vw; height: 34px;
+	padding:15px 0px 0px 60px;
+	background-position: right center;
+	font-size: 100%;
+}
+#menu li a:hover {
+	background-color:#ffffff;
+}
+
+/* head */
+#img_index {
+	display: none;
+}
+
+/* info left */
+h2 {
+	width: 100%; height: 20px;
+	padding: 0px 0px 0px 10px;
+	font-size: 16px;
+	background-image:none;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	color:#333333;
+	clear: both;
+}
+div#submenu {
+	width:100%;
+	margin: 0px;
+	float: none;
+}
+div#submenu ul li a{
+	display: block;
+	width: 100%; height: 16px;
+	padding: 5px 0px 1px 10px;
+	text-decoration: none;
+	border-bottom: 1px dotted gray;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-color:#eeeeee;
+	color: #333333;
+}
+
+/* main */
+div#info {
+	width: 100%;
+	fload: none;
+	padding: 0px;
+}
+
+h3 {
+	font-size: 16px;
+	padding: 5px 5px;/*文字の上下 左右の余白*/
+	color: #303030;/*文字色*/
+	background: #f4f4ff;/*背景色*/
+	border-left: solid 5px #6da4f6;/*左線*/
+	border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+p {
+	width: 95%;
+	margin: 10px;
+}
+.infoimg_subpage {
+	display: block;
+	width: 100%; height: 200px;
+	margin: 0px 0px 20px 0px;
+	float: none;
+}
+hr {
+	clear: both;
+	width: 100%;
+	margin: 10px 0px;
+	border: 1px dotted #cccccc;
+}
+
+/* content_pic */
+div.content_pic img {
+	width: 100%;
+	height: auto;
+}

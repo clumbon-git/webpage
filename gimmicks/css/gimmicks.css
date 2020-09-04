@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* left_menu */
+table.config, table.config th, table.config td {
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+  line-height: 1.5;
+  padding: 2px;
+}
+
+table.config td:nth-child(even) {
+  background: #eeeeee;
+}
+
+/* info */
+table.info, table.info th, table.info td {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+  line-height: 1.5;
+  padding: 2px;
+}
+
+table.info tr:nth-child(odd) {
+  background: #eeeeee;
+}
+
+table.info td.inquity_top {
+	background: #444444;
+	color: #ffffff;
+}
+
+/* config */
+table.config {
+	width: 100%;
+}
+
+table.config th {
+	background: #666666;
+	color: #ffffff;
+}
+
+/* conf_infomation */

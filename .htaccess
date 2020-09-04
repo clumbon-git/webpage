@@ -1,0 +1,3 @@
+<Files ~ "^(dbip\.php|mailip\.php)$">
+	Deny from all
+</files>
